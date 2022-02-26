@@ -1,4 +1,48 @@
 
+/* navbar */
+.custom-navbar{
+    display: flex;
+}
+
+.custom-navbar .search {
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.custom-navbar .navbar-nav {
+    flex-grow: 8;
+    justify-content: flex-end;
+}
+
+
+/* Carousel */
+
+.carousel-item {
+    transition: transform 0.3s ease-in-out;
+}
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 0.3s;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+/* card  */
+.card {
+    width: 30rem; 
+    margin: auto;
+}
+
+.card img {
+    width: 100%; 
+    height: 250px;
+    object-fit: cover;
+}
+
 /*footer*/
 
 footer {
